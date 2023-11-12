@@ -1,7 +1,12 @@
+body {
+	background: #F1F1F1;
+}
+
 header {
 	margin-left: 137px;
-	margin-top: 21px;
 	font-size: 27px;
+	position: fixed;
+	margin-top: -44px;
 }
 
 
@@ -10,12 +15,12 @@ header {
 	vertical-align: middle;
 }
 
-li {
+.title {
 	display: inline-block;
 	vertical-align: middle;
 	color: #000;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 13px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
@@ -39,15 +44,135 @@ li {
 }
 
 .container {
-	width: 724px;
+	width: 362px;
 	height: 372px;
+	background-color: white;
+	margin-left: 155px;
+	margin-top: 27px;
+	display: inline-block;
 }
 
-h4 {
+.text {
+	padding-top: 67px;
+	padding-left: 37px;
+	padding-right: 87px;
+	font-size: 10px;
+
+}
+
+.clock {
+	display: inline-block;
+	padding-left: 36px;
+	padding-top: 17px;
+	vertical-align: middle;
+}
+
+.time {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 19px;
 	color: #8A8787;
-font-family: Roboto;
-font-size: 10px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+	font-family: Roboto;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.text {
+	color: #8A8787;
+	font-family: Roboto;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.banner {
+	display: block;
+    margin-top: 30px;
+    width: 758px
+    height: 430px;
+}
+
+.container2 {
+	margin-left: 155px;
+	width: 758px;
+    height: 430px;
+    display: inline-block;
+}
+
+.ex1 {
+	display: inline-block;
+	vertical-align: top;
+	width: 362px;
+	margin-left: 29px;
+	margin-bottom: 20px;
+}
+
+.minilogo1 {
+	display: inline-block;
+	margin-top: 29px;
+}
+
+.minilogo2 {
+	display: inline-block;
+	margin-top: 98px;
+}
+
+.minilogo3 {
+	display: inline-block;
+	margin-top: 103px;
+}
+
+.info {
+	width: 100%;
+    height: 201px;
+    background-color: #243043;
+    margin-top: 36px;
+}
+
+.abt {
+	display: inline-block;
+    margin-top: 40px;
+    vertical-align: top;
+}
+
+.list1 {
+	display: block;
+    margin-left: 157px;
+    margin-bottom: 14px;
+    color: #818687;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 70px;
+    height: 14px;
+}
+
+.abt1 {
+	display: inline-block;
+    vertical-align: top;
+}
+
+.text1 {
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 249px;
+    height: 14px;
+    margin-left: 112px;
+    margin-top: 59px;
+}
+
+.geolab {
+	margin-left: 795px;
+    margin-bottom: 103px;
+    width: 38px;
+    height: 40px;
 }
