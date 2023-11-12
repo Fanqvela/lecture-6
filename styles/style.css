@@ -1,0 +1,53 @@
+header {
+	margin-left: 137px;
+	margin-top: 21px;
+	font-size: 27px;
+}
+
+
+.nav1 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 20px;
+}
+
+.logo {
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.trending {
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 50px;
+	margin-left: 157px;
+}
+
+.container {
+	width: 724px;
+	height: 372px;
+}
+
+h4 {
+	color: #8A8787;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
